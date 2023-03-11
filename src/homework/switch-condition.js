@@ -25,8 +25,8 @@ switch(environment){
         console.log("1 server provisioned");
         break;
     
+    case "DEV":
     default:
         console.log("no provision");
-        break;
 }
 
